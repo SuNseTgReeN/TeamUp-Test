@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "teamup-test"
+version = "0.1.0"
+description = ""
+authors = ["SuNseTgReeN <ahtohio_pal09@bk.ru>"]
+readme = "README.md"
+packages = [{include = "teamup_test"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+django = "3.2"
+djangorestframework = "^3.14.0"
+django-filter = "^23.2"
+djoser = "^2.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
